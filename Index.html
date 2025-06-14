@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <title>The Impossible Lightbulb | @coding.stella</title>
   <link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
-<link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <div class="toggle">
   <input id="light-mode" type="checkbox"/>
   <svg class="toggle-scene" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="xMinYMin" viewBox="0 0 197.451 581.081">
     <defs>
+      <!-- ... your SVG defs unchanged ... -->
       <marker id="e" orient="auto" overflow="visible" refx="0" refy="0">
         <path class="toggle-scene__cord-end" fill-rule="evenodd" stroke-width=".2666" d="M.98 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
       </marker>
@@ -54,9 +55,11 @@
       <g class="line toggle-scene__dummy-cord">
         <line marker-end="url(#a)" x1="98.7255" x2="98.7255" y1="250.5405" y2="380.5405"></line>
       </g>
+      <!-- Make sure this is the last element in the group for pointer events -->
       <circle class="toggle-scene__hit-spot" cx="98.7255" cy="380.5405" r="60" fill="transparent"></circle>
     </g>
     <g class="toggle-scene__bulb  bulb" transform="translate(844.069 -645.213)">
+      <!-- ...bulb SVG unchanged... -->
       <path class="bulb__cap" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.677" d="M-774.546 827.629s12.917-13.473 29.203-13.412c16.53.062 29.203 13.412 29.203 13.412v53.6s-8.825 16-29.203 16c-21.674 0-29.203-16-29.203-16z"></path>
       <path class="bulb__cap-shine" d="M-778.379 802.873h25.512v118.409h-25.512z" clip-path="url(#g)" transform="matrix(.52452 0 0 .90177 -368.282 82.976)"></path>
       <path class="bulb__cap" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M-774.546 827.629s12.917-13.473 29.203-13.412c16.53.062 29.203 13.412 29.203 13.412v0s-8.439 10.115-28.817 10.115c-21.673 0-29.59-10.115-29.59-10.115z"></path>
@@ -85,6 +88,7 @@
 <div class="doorway">
   <div class="doorway__opening"></div>
   <svg class="bear" viewBox="0 0 284.946 359.737">
+    <!-- ...bear SVG unchanged... -->
     <g transform="translate(-42.557 -974.222) scale(1.23353)">
       <path class="bear__fur" d="M263.91 1081.415a113.968 96.863 0 00-113.919-95.7 113.968 96.863 0 00-113.9 95.7h227.818z"></path>
       <path class="bear__fur" d="M250.428 903.362c0 66.271-44.754 114.995-102.428 114.995s-98.428-48.724-98.428-114.995c0-66.27 40.754-92.994 98.428-92.994s102.428 26.723 102.428 92.994z"></path>
@@ -116,8 +120,9 @@
     </div>
   </div>
 </div>
-  <script src='https://unpkg.com/gsap@3/dist/gsap.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/gsap.min.js'></script>
 <script src='https://assets.codepen.io/16327/MorphSVGPlugin3.min.js'></script>
-<script src='https://unpkg.com/gsap@3/dist/Draggable.min.js'></script><script  src="./script.js"></script>
+<script src='https://unpkg.com/gsap@3/dist/Draggable.min.js'></script>
+<script src="./script.js"></script>
 </body>
 </html>

@@ -2,9 +2,9 @@
   box-sizing: border-box;
 }
 :root {
-  --depth: 5vmin;
+  --depth: 10vmin;
   --on: 0;
-  --size: 25vmin;
+  --size: 20vmin;
   --bg: hsl(calc(200 - (var(--on) * 160)), calc((20 + (var(--on) * 50)) * 1%), calc((20 + (var(--on) * 60)) * 1%));
   --cord: hsl(0, 0%, calc((60 - (var(--on) * 50)) * 1%));
   --stroke: hsl(0, 0%, calc((60 - (var(--on) * 50)) * 1%));
@@ -203,5 +203,12 @@ input {
 }
 .door__side {
   background-color: hsl(30, 20%, calc((var(--lightness, 20%)) + (var(--on) * 40%)));
+}
+
+.toggle-scene__hit-spot {
+  cursor: pointer;
+  pointer-events: all;
+  /* For debugging, you can add a fill: */
+  /* fill: rgba(255,0,0,0.1); */
 }
 
