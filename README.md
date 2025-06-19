@@ -1,92 +1,79 @@
-<h1 align="center">
-  <img src="assets/lightbulb-emoji.png" alt="Lightbulb" width="60"/>
-  <br>
-  <b>The Impossible Lightbulb</b>
-  <br>
-  <img src="assets/teddy-emoji.png" alt="Teddy Bear" width="40"/>
-</h1>
+<h1 align="center">🧸 The Impossible Lightbulb</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/yourusername/impossible-switch?color=yellow" alt="License">
-  <img src="https://img.shields.io/badge/GSAP-Animation-green?logo=greensock" alt="GSAP">
-  <img src="https://img.shields.io/badge/Interactive-UI-blueviolet" alt="Interactive UI">
+  Pull the cord. Turn off the light. Annoy the bear.<br>
+  A fun, animated, and interactive light switch built with HTML, CSS, and GSAP.
 </p>
 
 <p align="center">
-  <b>Pull the cord. Turn on the light. Annoy the bear. <br>
-  The most impossible (and adorable) light switch on the web!</b>
-</p>
-
-<p align="center">
-  <img src="assets/demo.gif" alt="Impossible Lightbulb Demo" width="400"/>
+  <img src="assets/demo.gif" alt="Demo Animation" width="500"/>
 </p>
 
 ---
 
-## 🚀 Live Demo
+## 🌐 Live Demo
 
-<p align="center">
-  <a href="https://yourusername.github.io/impossible-switch/" target="_blank">
-    <img src="https://img.shields.io/badge/TRY%20IT%20LIVE-Click%20Here-orange?style=for-the-badge&logo=github" alt="Live Demo"/>
-  </a>
-</p>
+🚀 [Click here to try it live](https://mhussaind4772.github.io/impossible-switch/)  
+*(Make sure to serve with Live Server for full SVG interaction.)*
 
 ---
 
 ## ✨ Features
 
-- 🎛️ **Interactive Cord:** Pull to toggle the light—if you can!
-- 🐻 **Animated Bear:** First two pulls: just a paw. Third pull: the whole bear pops out!
-- 💡 **Impossible Switch:** The light doesn’t always do what you expect...
-- ⚡ **GSAP-Powered:** Smooth, playful SVG animations.
-- 📱 **Responsive:** Looks great on any device.
+- 🎛️ **Interactive Pull Cord:** Try turning the light off... if you can!
+- 🧸 **Bear Animation:** Pull the cord and see the bear react.
+- 💡 **Light Switch Effect:** Creative toggle that fights back.
+- ⚡ **Powered by GSAP:** Smooth, playful animations.
+- 📱 **Responsive Design:** Works well on mobile & desktop.
 
 ---
 
-## 📸 Screenshots
-
-<p align="center">
-  <img src="assets/on.png" alt="Light On" width="180"/>
-  <img src="assets/off.png" alt="Light Off" width="180"/>
-  <img src="assets/bear.png" alt="Bear Surprise" width="180"/>
-</p>
-
----
-
-## 🛠️ Quick Start
+## 🛠️ Setup & Run
 
 ```bash
-git clone https://github.com/yourusername/impossible-switch.git
+git clone https://github.com/MhussainD4772/impossible-switch.git
 cd impossible-switch
-# Open index.html in your browser!
-```
+Then open index.html in your browser using Live Server or double-click it.
 
-Or just open [`index.html`](./index.html) directly.
+🧩 Built With
 
----
+GSAP 3
+MorphSVGPlugin
+Draggable Plugin
+Pure HTML, CSS, and JavaScript
+📝 License
 
-## 🧩 Built With
+This project is open source and available under the MIT License.
 
-- [GSAP 3](https://greensock.com/gsap/) & [MorphSVGPlugin](https://greensock.com/morphSVG/)
-- [Draggable](https://greensock.com/draggable/)
-- Pure HTML, CSS, and JavaScript
+🙌 Author
 
----
+Syed Hussain
+🔗 GitHub: MhussainD4772
+📫 mohammedjoe53@gmail.com
 
-## 🤩 Why?
-
-Because sometimes you just need a light switch that fights back—and a bear with attitude.
-
----
-
-## 📝 License
-
-MIT
+🧸 Hope you enjoyed pulling the impossible cord!
 
 ---
 
-<p align="center">
-  <img src="assets/teddy-emoji.png" alt="Teddy Bear" width="40"/>
-  <br>
-  <b>Enjoy pulling the impossible cord!</b>
-</p>
+### 📦 Folder Tip
+
+Ensure this structure exists:
+📁 impossible-switch/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── assets/
+├── demo.gif
+├── on.png
+├── off.png
+└── bear.png
+
+
+Let me know if you want me to:
+- Add a GitHub Pages deploy guide
+- Create optimized image placeholders
+- Turn this into a React-based version for learning
+
+Just say the word.
